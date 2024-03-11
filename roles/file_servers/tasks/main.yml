@@ -1,0 +1,7 @@
+#file_servers
+  - name: install samba package
+	tags: samba
+	package:
+        name: samba
+        state: latest
+
